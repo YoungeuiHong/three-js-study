@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { useEffect, useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import { MeshWobbleMaterial, useGLTF } from "@react-three/drei";
-import { useSpring, a } from "@react-spring/three";
+import { a, useSpring } from "@react-spring/three";
 
 export function Level() {
   const { nodes } = useGLTF("/glb/level-react-draco.glb");
